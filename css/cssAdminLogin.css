@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font:20px Poppins;
+    background-color: rgb(0, 0, 0);
+}
+#button_voltar{
+    border: none;
+    position: absolute;
+    top:16px;
+}
+#button_voltar a{
+    padding:16px;
+    letter-spacing: 1px;
+    width:200px;
+    background-color: #049f57;
+    color:white;
+    cursor: pointer;
+}
+#button_voltar a:hover{
+    transition: 0.5s;
+    background-color: #036f3c;
+}
+.form{
+    width: 450px;
+    background-color: rgb(10, 10, 10);
+    margin: 0 auto;
+    color:white;
+    border-radius: 20px;
+    margin-top:11%;
+    box-shadow:  0px 5px 40px rgb(27, 27, 27);
+}
+.form > h1{
+    text-align: center;
+    padding-top: 16px;
+    color: #00ff88;  
+    font-weight: 1000px;
+    padding-bottom: 16px;
+}
+.form-control{
+    margin-left:24%;
+    margin-bottom: 26px;
+    width:50%;
+    display: inline-block;
+}
+.form-control label{
+    position: absolute;
+    font-size: 18px;
+    margin-left:85px;
+    margin-top: 12px;
+    color:rgb(73, 72, 72);
+    transition: 1.2s;
+    font-weight: 800;
+    display: inline-block;
+}
+.form-control label:hover{
+    cursor: text;
+}
+.form-control input{
+    width:100%;
+    border: none;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 16px;
+    outline: 0;
+    color:white;
+    background-color: #1f1c28;
+    font-size: 12pt;
+}
+
+#submit_button{
+    cursor: pointer;
+    width:70%;
+    padding:16px 0px;
+    border-radius: 8px;
+    outline: 0;
+    border: none;
+    margin-left:70px;
+    margin-bottom: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #00ff88;
+    font-weight: 800;
+}
+#submit_button:hover{
+    background-color: hsl(152, 96%, 35%);
+    transition: 0.3s;
+}
+.form-control label.focus{
+    margin: 0;
+    margin-left: 12px;
+    font-size: 14px;
+
+}

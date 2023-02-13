@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font:20px Poppins;
+    background-color: black;
+}
+#button_voltar{
+    border: none;
+    position: absolute;
+    top:16px;
+}
+#button_voltar a{
+    padding:16px;
+    letter-spacing: 1px;
+    width:200px;
+    background-color: #049f57;
+    color:white;
+    cursor: pointer;
+}
+#button_voltar a:hover{
+    transition: 0.5s;
+    background-color: #036f3c;
+}
+.form{
+    background-color: rgb(7, 11, 11);
+    color:#0d9555;  
+    width:650px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top:16px;
+}
+.form-control{
+    margin-left:16px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+.form h1{
+    color:#00ff88;  
+    text-align: center;
+    padding:16px;
+}
+.form-control .label-control{
+    padding-bottom: 6px;
+    display: inline-block;
+    margin-left:4px;
+}
+.form-control input{
+    background-color: rgb(7, 11, 11);
+    border-bottom: 1px white outset;
+    display: block;
+    padding:6px;
+    padding-left: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width:90%;
+    color:white;
+    height: 40px;
+    outline: 0;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.form-control input:focus{
+    background-color: rgb(19, 19, 19);
+    border: none;
+    transition: 0.5s;
+}
+.form-control span{
+    visibility: hidden;
+    font-size:18px;
+    position:relative;
+    top:3px;
+}
+.produtos-control{
+    margin-left:16px;
+}
+.produtos-control h2{
+    color:#00ff88;  
+    text-align: center;
+    padding-bottom: 16px;
+}
+.produtos-control p{
+    padding-bottom: 16px;
+}
+.button-control{
+    padding-top: 16px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.button-control .button_submit{
+    cursor: pointer;
+    width:70%;
+    padding:16px 0px;
+    border-radius: 8px;
+    outline: 0;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #00ff88;
+    font-weight: 800;
+}
+.button-control .button_submit:hover{
+    background-color: hsl(152, 95%, 23%);
+    transition: 0.6s;
+}
+.form-control span.error{
+    visibility: visible;
+    color:red;
+}

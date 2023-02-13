@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font:20px Poppins;
+}
+.produtos{
+    margin-top:12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.produtos .divprodutos{
+    color:white;
+    background-color: rgb(18, 17, 17);
+    border-radius: 20px;
+}
+.produtos h2{
+    text-align: center;
+    padding-top:16px;
+}
+.produtos .divimg{
+    text-align: center;
+    padding-top:16px;
+    padding-bottom: 16px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.produtos .divimg img{
+    border-radius: 24px;
+    width:200px;
+}
+.produtos p{
+    padding:16px;
+}
+.produtos input{
+    outline: 0;
+    width:100px;
+    height: 24px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 4px;
+}
+.produtos .inputemestoque{
+    color:white;
+}
+.valorfinal-control{
+    text-align: center;
+    background-color: rgb(18, 17, 17);
+    padding:16px;
+    color:white;
+}
+.valorfinal-control input[type=number]{
+    width:100px;
+    border-radius: 2px solid;
+    color:black;
+    outline: 0;
+}
+.valorfinal-control input[type=number]:hover{
+    cursor: default;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.valorfinal-control .divsubmit{
+    padding:16px;
+}
+.valorfinal-control input[type=submit]{
+    border: none;
+    padding:16px;
+    letter-spacing: 1px;
+    width:20%;
+    background-color: #049f57;
+    color:white;
+    cursor: pointer;
+}
+.valorfinal-control input[type=submit]:hover{
+    transition: 0.5s;
+    background-color: #036f3c;
+}
+.valorfinal-control button{
+    border:none;
+}
+.valorfinal-control button a{
+    padding:16px;
+    letter-spacing: 1px;
+    width:200px;
+    background-color: #049f57;
+    color:white;
+    cursor: pointer;
+}
+.valorfinal-control button a:hover{
+    transition: 0.5s;
+    background-color: #036f3c;
+}
