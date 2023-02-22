@@ -28,6 +28,7 @@ class MinhaLojaOnline{
     }
     public function inserirClientes($nifcliente,$name,$location,$birthday){
         $cmd = $this->pdo->prepare("SELECT * FROM clientes WHERE NIF_cliente = :NIF_cliente");
+        $cmd->bindValue(":NIF_cliente",$nifcliente);
         $cmd->execute();
         if( $cmd->rowCount() > 0){
             
